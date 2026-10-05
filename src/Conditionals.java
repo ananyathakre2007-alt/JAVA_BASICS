@@ -1,8 +1,8 @@
 import java.sql.SQLOutput;
-import java.util.Scanner;
-public class Conditionals {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//import java.util.Scanner;
+//public class Conditionals {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
 //        int a = sc.nextInt();
 //        if (a>10){
 //            System.out.println("Greater than 10");
@@ -275,9 +275,9 @@ public class Conditionals {
 //                    System.out.println("Pass");
 //                    break;
 //            }
-        }
-
-
-
-    }
-}
+//        }
+//
+//
+//
+//    }
+//}
