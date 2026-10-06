@@ -258,27 +258,58 @@ public class Loops {
 //            max++;
 //        }
 
+//
+//        Scanner sc = new Scanner(System.in);
+//        int count=0;
+//        int sum=0;
+//        int max=-1;
+//        int a;
+//
+//
+//        do {
+//            a = sc.nextInt();
+//            if(a!=0){
+//                count++;
+//                sum = sum + a;
+//                if (a > max) {
+//                max = a;}
+//            }
+//        }
+//        while(a!=0);
+//        System.out.println("sum "+sum+" count "+count+" max "+max);
 
-        Scanner sc = new Scanner(System.in);
-        int count=0;
-        int sum=0;
-        int max=-1;
-        int a;
 
+//        Scanner sc = new Scanner(System.in);
+//        int prev=0;
+//        int pres=1;
+//
+//        int n=sc.nextInt();
+//        System.out.print(prev+" ");
+//        System.out.print(pres+" ");
+//
+//        for(int i=0;i<n-2;i++){
+//            int x=pres;
+//            pres=pres+prev;
+//            prev=x;
+//            System.out.print(pres+" ");
+//            }
 
-        do {
-            a = sc.nextInt();
-            if(a!=0){
-                count++;
-                sum = sum + a;
-                if (a > max) {
-                max = a;}
-            }
-        }
-        while(a!=0);
-        System.out.println("sum "+sum+" count "+count+" max "+max);
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int count=0;
+//        for(int i=1;i<=Math.sqrt(n);i++){
+//            if(i*i==n){
+//                count++;
+//                break;
+//            }
+//        }
+//        if (count==0){
+//            System.out.println("not a perfect square");
+//        }else {
+//            System.out.println("Perfect square");
+//        }
+
     }
-
 }
 
 
