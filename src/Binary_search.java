@@ -5,7 +5,7 @@ public class Binary_search {
         int target = 9;
         int[] arr2 = {9, 8, 7, 6, 5, 4, 3, 2, 1};
 //
-//        System.out.println(InfiniteArray(arr,6));
+        System.out.println(InfiniteArray(arr,12));
 //        System.out.println(BinarySearch(arr, target));
 //        System.out.println(BinarySearch2(arr2, target));
 //        System.out.println(AgnosticSearch(arr2, target));
