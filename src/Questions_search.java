@@ -4,7 +4,7 @@ public class Questions_search {
         int[] arr = {6, 6, 7, 1, 1, 2, 3, 3, 4, 5, 6};
         int target = 7;
 //        System.out.println(Search(arr, target));
-        System.out.println(NumberOfRotationsint(arr));
+//        System.out.println(NumberOfRotationsint(arr));
     }
 
 
