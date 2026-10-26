@@ -2,10 +2,12 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class Sorting {
     public static void main() {
-        int[] arr={-1,-2,-3,0,7,8,5,3,2};
-        BubbleSort(arr);
+        int[] arr={-9,7,8,5,0,3,5};
+//        BubbleSort(arr);
 //        System.out.println(Arrays.toString(arr));
-        SelectionSort(arr);
+//        SelectionSort(arr);
+//        System.out.println(Arrays.toString(arr));
+        InsertionSort(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -50,6 +52,17 @@ public class Sorting {
                 break;
             }
         }
-
+    }
+    static void InsertionSort(int[] arr){
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = i+1; j > 0 ; j--) {
+                if(arr[j]<arr[j-1]){
+                    swap(arr,j,j-1);
+                }else
+                {
+                    break;
+                }
+            }
+        }
     }
 }
