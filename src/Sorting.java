@@ -2,12 +2,13 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class Sorting {
     public static void main() {
-        int[] arr={-9,7,8,5,0,3,5};
+        int[] arr ={1, 2, 3, 4, 3, 2, 7, 8} ;
 //        BubbleSort(arr);
 //        System.out.println(Arrays.toString(arr));
 //        SelectionSort(arr);
 //        System.out.println(Arrays.toString(arr));
-        InsertionSort(arr);
+//        InsertionSort(arr);
+        CyclicSort(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -65,4 +66,20 @@ public class Sorting {
             }
         }
     }
+
+    static void CyclicSort(int[] arr){
+        int i=0;
+
+        while(i<arr.length){
+            int correct=arr[i]-1;
+            if(arr[i]!=arr[correct]){
+                swap(arr,i,correct);
+            }
+            else{
+                i++;
+
+            }
+        }
+    }
+
 }
