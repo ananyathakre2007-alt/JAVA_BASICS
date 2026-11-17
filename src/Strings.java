@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Strings {
 
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Strings {
 //        name="thakre";//possible
 
 //        System.out.println(name);
-//
+
 //
 //
 //        //outside the String pool
@@ -27,6 +28,27 @@ public class Strings {
 
         //placeholdders
 
-        System.out.printf("Hello my name is %s and i am %s","ananya","cool");
+//        System.out.printf("Hello my name is %s and i am %s","ananya","cool");
+
+        //Operations
+//        System.out.println('a'+'b');//195
+//        System.out.println("a"+"b");//ab
+//        System.out.println("a"+1);//a1
+//        System.out.println("a"+new ArrayList<>());
+
+        //in java for any + operation either it needs premitive or Atleast one string
+
+//        String name = "Ananya";
+//        System.out.println(name.toUpperCase());
+//        System.out.println(name.toLowerCase());
+//        System.out.println(name.toCharArray());
+//        String namme = "Ananya   ";
+//        System.out.println(namme.strip());
+        String naame="An an ya";
+        System.out.println(Arrays.toString((naame.split(" "))));
+
+
+
+
             }
 }
